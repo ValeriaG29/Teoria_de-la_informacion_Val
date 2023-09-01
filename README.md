@@ -1,12 +1,16 @@
 # Teoria_de-la_informacion_Val
-#ESQUEMA DE COMUNICACIÓN
+#ESQUEMA DE COMUNICACIÓN TELEGRÁFO
 
-El propósito de este esquema es explicar de manera más detallada nuestro sistema de comunicación
-
-Para este usaremos un archivo de texto ya que según lo visto en clases durante la explicación del martes creemos que es un poco más fácil de manipular ya que de esta forma
-tranformaremos el contenido en binario para poder realizar la transmisión del mismo. Una vez traducido a binario procederemos a hacer envio de la información
-dicho envio añadira ruido, es decir, de alguna forma alterará el contenido que estamos enviando, una vez que acabe el envío total de la información se decodificará para finalmente
-mostrar la información enviada y si atrapo ruido mostrar como este altero la información
+El propósito de este esquema es explicar de manera más detallada el sistema de comunicación que vamos a desarrollar el cuál será 
+un sistema de comunicación de un telegráfo.
+Para ello vamos a dividir nuestro esquema de comunicacion de la siguiente forma
+CARGA DE LA INFORMACIÓN: Nuestra fuente de información será un archivo .txt 
+TRANSMISOR: Nuestro transmisor será el telegrafo por el cuál se enviará el mensaje
+el mensaje de texto a morse
+CANAL: Nuestro canal será un "cable de cobre" el cuál permite pulsaciones bajas y altas que es dónde se encripta el mensaje 
+en morse y será enviado a nuestro receptor también en esta parte se le añadirá ruido al programa.
+RECEPTOR: El receptor recibe el mensaje en morse con ruido 
+MENSAJE: Se genera un archivo .wav, que contiene el audio del código morse
 
 
 ![image](https://github.com/ValeriaG29/Teoria_de-la_informacion_Val/assets/54336086/b2ba4a1a-6550-4bd9-b54f-1105fe08c716)
