@@ -1,0 +1,5 @@
+Símbolo	Código Longitud Fija
+L	000
+A	001
+O	010
+H	011
