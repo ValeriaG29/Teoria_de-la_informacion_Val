@@ -1,0 +1,5 @@
+Símbolo	Código Huffman
+H	00
+O	01
+L	10
+A	11
